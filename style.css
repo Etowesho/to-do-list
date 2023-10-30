@@ -1,0 +1,48 @@
+:root {
+    --colourBackground: #000000;
+    --colourlight: #4d5995;
+    --colourmid: #384770;
+    --colourdark: #131739;
+    --colourText: #ffffff;
+    --colour2light: #bf2424;
+    --colour2mid: #821a1a;
+    --colour2dark: #340404;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', cursive;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+}
+.grid{
+    background:linear-gradient(245.59deg, var(--colourlight) 0%, var(--colourmid) 30.53%, var(--colourdark) 99.52%);
+    width: 350px;
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3%;
+    border: 3px solid var(--colourdark);
+    border-radius: 5%;
+    color: var(--colourText);
+    transition: all .55s ease;
+}
+button{
+    background: var(--colourlight);
+    border: 1px solid var(--colourText);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--colourText);
+    transition: all .55s ease;
+}
+button:hover{
+    background-color: var(--colourdark);
+}
+input{
+    border-radius: 3%;
+}
